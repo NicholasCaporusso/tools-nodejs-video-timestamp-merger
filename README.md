@@ -1,4 +1,4 @@
-# Video Merger
+# Timestamp-based Video Merger
 
 A **Node.js** utility that scans a folder full of MP4 clips, detects the embedded timestamps in their filenames (anywhere in the name, using the pattern **YYYY‑MM‑DD HH mm ss** with flexible separators), groups clips that were recorded within **two hours** of each other, and concatenates the groups into lossless MP4 files using **FFmpeg**.
 
